@@ -9,4 +9,8 @@ body {
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
+  @media (hover: hover) and (pointer: fine) {
+    left: ~"calc(50% + 5px)" !important;
+    width: ~"calc(100vw - 10px)" !important;
+  }
 }
